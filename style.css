@@ -1,0 +1,21 @@
+.users
+{
+    max-width: 800px;
+    width: 100%;
+    margin-inline: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px
+}
+.user{
+    display:flex;
+    background-color: aqua;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.user span
+{
+    font-size: 18px;
+}
